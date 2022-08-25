@@ -37,7 +37,6 @@ header nav {
     flex-basis: 70%;
 }
 header div a {
-    font-size: .8rem;
     color: rgba(0,0,0,.8);
 }
 header ul {
@@ -48,7 +47,7 @@ header ul {
 }
 header li {
     list-style: none;
-    font-size: .5rem;
+    font-size: .8rem;
 }
 header li:nth-of-type(5) {
     margin-left: auto;
@@ -68,7 +67,7 @@ section {
     margin: 10vh 15vw;
 }
 section h2 {
-    font-size: .9rem;
+    font-size: 1rem;
     margin-bottom: .6rem;
 }
 main div {
@@ -77,6 +76,6 @@ main div {
     gap: .2rem;
 }
 img {
-    height: 150px;
-    width: 200px;
+    height: 250px;
+    width: 325px;
 }
