@@ -18,10 +18,12 @@ Allgemein
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 body {
     background-color: #d9e8e5;
     font-family: 'Lato';
+    font-size: 62.5%;
 }
 /* ==========
 HEADER
@@ -38,6 +40,7 @@ header nav {
 }
 header div a {
     color: rgba(0,0,0,.8);
+    font-size: 1.2rem;
 }
 header ul {
     display: flex;
@@ -47,7 +50,7 @@ header ul {
 }
 header li {
     list-style: none;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 header li:nth-of-type(5) {
     margin-left: auto;
@@ -67,7 +70,7 @@ section {
     margin: 10vh 15vw;
 }
 section h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: .6rem;
 }
 main div {
