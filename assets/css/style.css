@@ -36,7 +36,7 @@ header {
     height: 5vh;
 }
 header nav {
-    flex-basis: 70%;
+    flex-basis: 50%;
 }
 header div a {
     color: rgba(0,0,0,.8);
@@ -44,7 +44,7 @@ header div a {
 }
 header ul {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     height: 100%;
     
 }
@@ -67,16 +67,20 @@ MAIN
 ========== */
 /* ===== Gallerie ===== */
 section {
-    margin: 10vh 15vw;
+    margin: 10vh auto;
+    padding:  0 15vw;
+
 }
 section h2 {
     font-size: 1.2rem;
     margin-bottom: .6rem;
+    text-align: center;
 }
 main div {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: .2rem;
+    gap: .4rem;
 }
 img {
     height: 250px;
